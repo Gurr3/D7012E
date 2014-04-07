@@ -1,0 +1,2 @@
+subseqs :: [a] -> [[a]]
+subseqs = concatMap inits . tails

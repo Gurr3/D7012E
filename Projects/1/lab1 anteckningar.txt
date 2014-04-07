@@ -1,0 +1,71 @@
+fixy :: [a] -> [a] -> [a]
+fixy ys xs 
+	|null xs = return []
+	|(x:xs) notElem ys = return ys:(x ++ fixy (tail xs))
+	|return (fixy (tail xs))
+	
+	
+	
+	
+	{--
+	| null xs = return ys xs
+	| (head xs) notElem  ys = y ++ (head xs) --förmodligen för imperativ
+	fixy ys (tail x)
+	--}{--
+	
+
+	-----------------------
+	comp :: [Int]
+	comp xs = [ys | ys <- xs , xs notElem ys]
+	----------------------
+	
+	sum [] = 0
+	sum (x:xs) = x + sum xs
+	
+	---------------------
+	
+	
+	
+	MAKE AN IF STATEMENT!
+	
+	--| head x finns redan i y drop element call fixy with tail x
+	--|y = y:(head x) kalla fixy med tail x 
+
+	--elem :: Eq a => a -> [a] -> Bool
+	
+	--notElem :: Eq a => a -> [a] -> Bool
+	
+	--elem is the list membership predicate, usually written in infix form, e.g., x `elem` xs. For the result to be False, the list must be finite; True, however, results from an element equal to x found at a finite index of a finite or infinite list. 
+	
+	--notElem is the negation of elem
+	
+	--http://www.haskell.org/ghc/docs/latest/html/libraries/base/Data-List.html#v:elem
+	
+describeList :: [a] -> String  
+describeList xs = "The list is " ++ what xs where 
+	what [] = "empty."  
+	what [x] = "a singleton list."  
+	what xs = "a longer list." 
+	
+	
+	max' :: (Ord a) => a -> a -> a  
+	max' a b   
+    | a > b     = a  
+    | otherwise = b 
+	
+	-------------------------------------------
+	
+	ex :: [Int]
+	ex = [2,4,7]
+
+	isEven :: Int -> Bool
+	isEven n = (n `mod` 2 == 0)
+
+	comp3 :: [Int]
+	comp3 = [ 2*n | n <- ex , isEven n , n>3 ]
+	
+	RESULT IS [8]
+	----------------------------------------
+	
+	---------------------------------------------
+	--}
