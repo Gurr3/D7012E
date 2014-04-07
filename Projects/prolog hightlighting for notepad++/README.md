@@ -18,7 +18,9 @@ Restart notepad++.
 
 Now a new language should have appeared in the menubars Language menu, it is probably stored near the end of the list.
 
-The dark themes are more updated than the light themes, my theme of choice is "Zenburn".
+## Notes
+
+* The dark themes are more updated than the light themes, my theme of choice is "Zenburn".
 
 ## Changelog
 
