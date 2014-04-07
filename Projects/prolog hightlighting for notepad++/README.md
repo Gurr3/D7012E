@@ -27,3 +27,7 @@ The dark themes are more updated than the light themes, my theme of choice is "Z
 
 ### prolog_byGurr3_v1.07_darkbg.xml
 * 'moved 'div, mod, rem' from operators to keywords'
+
+##Known Problems
+
+*When using a '%' during a function call or printing functions it considers the text behind % to be a comment. I don't know how to fix this without disallowing comments on the same line but behind functions.
