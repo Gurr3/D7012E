@@ -28,7 +28,10 @@ Now a new language should have appeared in the menubars Language menu, it is pro
 * 'is' moved from operator to keyword
 
 ### prolog_byGurr3_v1.07_darkbg.xml
-* 'moved 'div, mod, rem' from operators to keywords'
+* moved 'div, mod, rem' from operators to keywords
+
+### prolog_byGurr3_v1.08_darkbg.xml
+* added 'writef' to keywords 2nd list
 
 ##Known Problems
 
