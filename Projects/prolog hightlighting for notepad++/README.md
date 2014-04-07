@@ -1,4 +1,4 @@
-# Instructions for installing highlighting in Notepad++
+# Instructions for installing custom highlighting in Notepad++
 
 Download language xml file, store in appropriate place.
 
@@ -20,14 +20,14 @@ Now a new language should have appeared in the menubars Language menu, it is pro
 
 The dark themes are more updated than the light themes, my theme of choice is "Zenburn".
 
-## Changelog:
+## Changelog
 
 ### prolog_byGurr3_v1.06_darkbg.xml
-*'is' moved from operator to keyword
+* 'is' moved from operator to keyword
 
 ### prolog_byGurr3_v1.07_darkbg.xml
 * 'moved 'div, mod, rem' from operators to keywords'
 
 ##Known Problems
 
-*When using a '%' during a function call or printing functions it considers the text behind % to be a comment. I don't know how to fix this without disallowing comments on the same line but behind functions.
+* When using a '%' during a function call or printing functions it considers the text behind % to be a comment. I don't know how to fix this without disallowing comments on the same line but behind functions.
