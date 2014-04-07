@@ -1,3 +1,5 @@
+# Instructions for installing highlighting in Notepad++
+
 Download language xml file, store in appropriate place.
 
 Open notepad++.
@@ -18,7 +20,8 @@ Now a new language should have appeared in the menubars Language menu, it is pro
 
 The dark themes are more updated than the light themes, my theme of choice is "Zenburn".
 
-Changelog:
+## Changelog:
+
 ### prolog_byGurr3_v1.06_darkbg.xml
 *'is' moved from operator to keyword
 
