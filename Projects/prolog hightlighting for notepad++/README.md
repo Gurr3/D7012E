@@ -35,4 +35,4 @@ Now a new language should have appeared in the menubars Language menu, it is pro
 
 ##Known Problems
 
-* When using a '%' during a function call or printing functions it considers the text behind % to be a comment. I don't know how to fix this without disallowing comments on the same line but behind functions.
+* When using a '%' during a function call or printing functions it considers the text behind % to be a comment. I don't know how to fix this without disallowing comments on the same line behind code.
